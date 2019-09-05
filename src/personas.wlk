@@ -16,9 +16,6 @@ var gradoDeConcentracion = 6
 	  method darseUnBanioDeVapor() {
 	  }
 
-	  method nombre() {
-	  return string
-	  }
 }
 
 object bruno {
@@ -73,9 +70,6 @@ var peso = 55000
 	  self.verElNoticiero()
 	  }
 
-	  method nombre() {
-	  return string
-	  }
 }
 
 object ramiro {
@@ -108,7 +102,4 @@ var contractura = 0
 	  self.bajarALaFosa()
 	  }
 
-	  method nombre() {
-	  return string
-	  }
 }

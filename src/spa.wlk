@@ -10,7 +10,7 @@ var primerPersona
 	  persona.recibirMasajes()
 	    } 
 	     else{}
-	  primerPersona = persona.nombre()
+	  primerPersona = persona
 
 	 }
 }
