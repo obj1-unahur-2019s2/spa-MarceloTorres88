@@ -10,7 +10,7 @@ var gradoDeConcentracion = 6
 	  }
 
 	  method discute() {
-	  gradoDeConcentracion -= 1
+	  gradoDeConcentracion = (gradoDeConcentracion -1).max(0)
 	  }
 
 	  method darseUnBanioDeVapor() {
@@ -83,7 +83,7 @@ var string = "Ramiro"
 var pielGrasosa = true
 var contractura = 0
       method recibirMasajes() {
-	  contractura -= 2
+	  contractura = (contractura - 2).max(0)
 	  }
 
 	  method darseUnBanioDeVapor() {

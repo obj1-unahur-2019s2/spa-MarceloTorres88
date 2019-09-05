@@ -1,22 +1,18 @@
 import personas.*
 
 object spa {
-var primerPersona = "Persona"
-var segundaPersona = "Persona"
-      method atenderPrimer(persona) {
-	  persona.recibirMasajes()
-	  persona.darseUnBanioDeVapor()
-	  primerPersona = persona.nombre()
-	  }
+var primerPersona
 
-	  method atenderSiguiente(persona) {
+      method atender(persona) {
 	  persona.recibirMasajes()
 	  persona.darseUnBanioDeVapor()
-	  segundaPersona = persona.nombre()
-	  if (primerPersona == segundaPersona) {
+	  if (primerPersona == persona) {
 	  persona.recibirMasajes()
 	    } 
-	     else{
-		     }
-	  }
+	     else{}
+	  primerPersona = persona.nombre()
+
+	 }
 }
+	  
+	 
