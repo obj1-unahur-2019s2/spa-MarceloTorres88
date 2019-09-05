@@ -1,0 +1,12 @@
+import spa.*
+import personas.*
+
+
+test "Atender" {
+	spa.atender(olivia)
+	spa.atender(olivia)
+    assert.equals(12, olivia.gradoDeConcentracion())
+    spa.atender(bruno)
+    assert.that(bruno.esFeliz())
+    spa.atender(ramiro)
+}
